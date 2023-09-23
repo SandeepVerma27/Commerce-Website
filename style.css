@@ -324,7 +324,7 @@ body {
 #sm-banner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #sm-banner {
@@ -357,6 +357,7 @@ body {
   background-position: center;
 }
 
+/*
 .banner-box h2,
 h5,
 p,
@@ -370,6 +371,7 @@ p,
 button {
   margin-left: 40px;
 }
+*/
 
 .banner-box button {
   background: transparent;
@@ -402,4 +404,101 @@ button {
 #sm-banner button {
   height: 30px;
   width: 100px;
+}
+
+/* design the banner 3 */
+/* #banner-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+#banner-3 {
+  display: flex;
+  justify-content: space-between;
+}
+#banner-3 .img-1 {
+  width: 30%;
+  height: 40vh;
+  background-image: url(img/banner/b7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  padding: 25px;
+}
+#banner-3 .img-2 {
+  width: 30%;
+  height: 40vh;
+  background-image: url(img/banner/b4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  padding: 25px;
+}
+#banner-3 .img-3 {
+  width: 30%;
+  height: 40vh;
+  background-image: url(img/banner/b18.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  padding: 25px;
+}
+
+.extra h4 {
+  color: red;
+}
+.extra h2 {
+  color: white;
+}
+
+/* style for the newLetter  */
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+#newsletter p span {
+  color: #ffbd27;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
 }
