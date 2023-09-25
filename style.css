@@ -493,12 +493,106 @@ button {
   color: #ffbd27;
 }
 
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
 #newsletter input {
   height: 3.125rem;
   padding: 0 1.25rem;
   font-size: 14px;
   width: 100%;
   border: 1px solid transparent;
-  border-radius: 4px;
   outline: none;
+}
+
+#newsletter .input {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#newsletter .button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#newsletter .button {
+  background-color: #088178;
+  color: #fff;
+  width: 30%;
+}
+
+/* style of the footer  */
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-footer .icons i {
+  font-size: 26px;
+  padding: 8px;
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%; */
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 7px;
+  margin-top: 4px;
+  transition: 0.5s ease-in;
+}
+
+#main-footer .icons i:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 1px black;
+}
+
+.icons .fa-square-facebook {
+  color: rgb(40, 40, 255);
+}
+
+.icons .fa-square-instagram {
+  color: rgb(255, 32, 158);
+}
+
+.icons .fa-youtube {
+  color: red;
+}
+.icons .fa-linkedin {
+  color: rgb(0, 89, 255);
+}
+
+#main-footer .col h4 {
+  padding-top: 30px;
+}
+
+#main-footer .col strong {
+  color: #041e42;
+  font-weight: 700;
+}
+
+#main-footer .footer-text a {
+  text-decoration: none;
+  color: #041e42;
+  display: flex;
+  padding-top: 7px;
+}
+
+.footer-install .row img {
+  border: 0.8px solid #088178;
+  border-radius: 5px;
+}
+
+.footer-install .row img:hover {
+  cursor: pointer;
+}
+
+.footer-install img:hover {
+  cursor: pointer;
+}
+
+#main-footer .copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
